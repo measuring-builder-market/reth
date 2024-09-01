@@ -11,6 +11,7 @@
 #![cfg_attr(not(test), warn(unused_crate_dependencies))]
 #[allow(hidden_glob_reexports)]
 mod eth;
+mod sim;
 
 /// Alias for a peer identifier
 pub type PeerId = B512;
@@ -58,6 +59,8 @@ pub use eth::{
     },
 };
 
+
+pub use sim::*;
 /// Optimism specific rpc types.
 pub mod optimism {
     pub use op_alloy_rpc_types::*;
