@@ -8365,6 +8365,7 @@ dependencies = [
 name = "reth-rpc-types"
 version = "1.0.6"
 dependencies = [
+ "alloy-eips",
  "alloy-primitives 0.8.0",
  "alloy-rpc-types",
  "alloy-rpc-types-admin",
@@ -8380,6 +8381,8 @@ dependencies = [
  "op-alloy-rpc-types",
  "op-alloy-rpc-types-engine",
  "rand 0.8.5",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
